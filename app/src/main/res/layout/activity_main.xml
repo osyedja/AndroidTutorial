@@ -29,19 +29,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="PLAYER ' 1 ' " />
+                android:text="PLAYER ' 1 ' "/>
 
-            <TextView
+            <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:id="@+id/txt1"/>
 
-                android:text="dsadasf" />
+
+            android:text="dsadasf" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:id="@+id/bt1"
 
                 android:text="Gues" />
         </LinearLayout>
@@ -61,17 +64,34 @@
                 android:gravity="center"
                 android:text="PLAYER ' 2 '" />
 
-            <TextView
+            <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="dsadasf" />
+                android:id="@+id/txt2"
+            />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/bt2"
                 android:text="Gues" />
         </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/txtres"
+            android:textSize="50sp"/>
 
     </LinearLayout>
 
